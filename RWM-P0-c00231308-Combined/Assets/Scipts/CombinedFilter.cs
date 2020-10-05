@@ -7,6 +7,6 @@ public class CombinedFilter
 {
     public static int[] combinedFilter(int[] xs)
     {
-        return XOR21.XORcalculation(results.moduloFirst(xs));
+        return XOR21.XORcalculation(ModuloFirstFilter.results(xs));
     }
 }

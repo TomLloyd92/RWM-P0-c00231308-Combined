@@ -8,9 +8,9 @@ namespace Tests
         [Test]
         public void CombinedFilterSimple()
         {
-            int[] input = { 1, 3, 5, 7, 9 };
+            int[] input = { 4, 2 };
             int[] output = CombinedFilter.combinedFilter(input);
-            int[] expected = { 1, 0, 2, 1, 0 };
+            int[] expected = { 21, 23 };
 
             CollectionAssert.AreEqual(expected, output);
         }
